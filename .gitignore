@@ -1,0 +1,25 @@
+# Ignore Python and Django specific files
+__pycache__/
+*.py[cod]
+*.sqlite3
+venv/
+
+# Ignore node_modules and build files
+node_modules/
+build/
+.next/
+.nuxt/
+dist/
+public/
+out/
+
+# Ignore MacOS files
+.DS_Store
+
+# Ignore IDE files
+.idea/
+*.iml
+.vscode/
+
+# Ignore environment variables file
+.env
